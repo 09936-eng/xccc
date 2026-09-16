@@ -4,31 +4,15 @@
 
 const SONGS = [
 
-  // ── เพลงเดิม (SoundHelix เดโม) ──
   {
     id: 1,
-    title: "SoundHelix Song 1",
-    artist: "SoundHelix",
-    album: "Demo",
-    cover: "",
-    src: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
-  },
-
-  // ── 🆕 เพิ่มเพลงคืนจันทร์ (LOSO) ที่นี้ ──
-  {
-    id: 2,
     title: "คืนจันทร์",
     artist: "LOSO",
     album: "คืนจันทร์ (ซิงเกิล)",
     year: 2024,
     label: "GMM GRAMMY OFFICIAL",
     cover: "",
-    // ⬇️ ตรงนี้ = ลิงก์เพลง (เลือก 1 ใน 2 แบบ)
-
-    // แบบ A: มีไฟล์ MP3 ของคุณเอง → ชี้ไปไฟล์
-    // src: "music/kun-chan.mp3"
-
-    // แบบ B: ยังไม่มีไฟล์ → ใช้เพลงเดโมแทนชั่วคราว
+  
     src: "https://www.soundhelix.com/examples/mp3/Song-2.mp3"
   }
 
